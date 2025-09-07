@@ -51,7 +51,6 @@ class Bird(Animal):
 dad = Parent("Dad", 28, "Engineer")
 mom = Parent("Mom", 24, "Teacher")
 daughter = Child("Wincy", 3, "Kindergaten")
-
 print(dad.introduce())
 print(mom.introduce())
 print(daughter.introduce())
